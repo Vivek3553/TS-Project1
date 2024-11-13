@@ -95,5 +95,99 @@ nav{
 /* Exclusives*/
 .sub-title{
     margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+.Exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+}
+.Exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Exclusives div {
+    position: relative;
+}
+.Exclusives div span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    text-align: center;
+    color: #fff;
+}
+
+/*------ Trending-places -----*/
+.Trending-places{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.Trending-places div img{
+    width: 100%;
+    border-radius: 10px;    
+}
+.Trending-places div h3{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/*--- cta -----*/
+.cta{
+    margin: 80px;
+    background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+.cta h3{
+    font-size: 4vw;
+    line-height: 5,3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cta-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline;
+}
+
+/*--Travellers stories--*/
+.Stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.Stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Stories div{
+    position: relative;
+    text-align: center;
     
+} 
+.Stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
 }
